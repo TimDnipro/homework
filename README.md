@@ -1,7 +1,8 @@
-## Configure Jenkins CI on Azure
+## Configure Jenkins CI in Azure Container Instance
 ----
 1. Get a free subscription
-2. Open Azure Terminal from Portal
+https://azure.microsoft.com/en-us/free/
+2. Open Azure Terminal from Portal and create a container instance:
 * Create resource group
 ```
 az group create -name <ResourceGroupName> -location westeurope
